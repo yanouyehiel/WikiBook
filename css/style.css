@@ -1,0 +1,81 @@
+.bg-light{
+    background-color: #25373D !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #E7E7E7;
+    cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link:hover, .nav-link:focus{
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+a .nav-link{
+    cursor: pointer;
+}
+.header{
+    margin-left: 300px !important;
+    /*float: right !important;
+    justify-content: flex-end !important; */
+}
+
+/* Page Membre */
+.body-membre{
+    background-color: white;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .3);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    display: flex !important;
+}
+.body-membre > .infos{
+
+}
+.body-membre > .image{
+    border-radius: 20px;
+}
+.membre-btn{
+    margin: 15px;
+}
+.btn-voir{
+    background: #25373D;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition: ease-in .5s all;
+}
+.btn-voir:hover{
+    background: rgb(41, 128, 185, .9);
+    /* rgba(255, 255, 255, .8) */
+    color: white;
+    text-decoration: none;
+    transition: ease-out .5s all;
+}
+
+/* Page Inscription */
+.inscription{
+    width: 50%;
+}
+.information{
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Page Connexion */
+
+/* Style des messages/ Page messagerie */
+.body-message{
+    background: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(17, 17, 17, .4);
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    word-break: break-word;
+}
